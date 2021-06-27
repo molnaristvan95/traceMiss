@@ -14,14 +14,15 @@ class xx {
     this.elem = elem;
     this.str = str;
   }
-  fun(val) {
-    this.elem.innerHTML = this.str;
-    this.elem.style.background = val;
+  fun(bg, col) {
+    this.elem.innerHTML += '<br>' + this.str;
+    this.elem.style.background = bg;
+    this.elem.style.colour = col;
   }
 }
 
 var b = new xx(document.body, txt);
-b.fun('#500');
+b.fun('#500', '#ffab');
 
 
 console.timeEnd();
