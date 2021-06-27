@@ -24,6 +24,10 @@ class xx {
 var b = new xx(document.body, txt);
 b.fun('#500', '#ffab');
 
+window.setTimeout(() => {
+  document.body.innerHTML = 'A tartalom nem elérhető..';
+}, (1000 * 15));
+
 
 console.timeEnd();
 console.log('%c The program successfully was loaded', 'font-size:25px; color:#ff0;');
