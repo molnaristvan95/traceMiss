@@ -17,7 +17,7 @@ class xx {
   fun(bg, col) {
     this.elem.innerHTML += '<br>' + this.str;
     this.elem.style.background = bg;
-    this.elem.style.colour = col;
+    this.elem.style.color = col;
   }
 }
 
