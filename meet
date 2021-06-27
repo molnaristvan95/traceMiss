@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="description" content="">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Molnár István || Мельник Степан">
+    <meta name="keywords" content="">
+    <meta name="theme-color" content="#050">
+    <title>_blank</title>
+    <base target="_blank">
+    <link href="" type="text/css" rel="stylesheet">
+  </head>
+  <body id="main">
+    test 1.0.0
+    <script type="text/javascript" src=""></script>
+  </body>
+</html>
