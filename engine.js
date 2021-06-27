@@ -2,8 +2,26 @@ console.clear();
 console.time();
 console.group();
 
+var txt = 'teszt 1.0.0',
+    sF;
 
+(sF = () => {
+  document.body.innerHTML = 'trace with miss';
+})();
 
+class xx {
+  constructor(elem, str) {
+    this.elem = elem;
+    this.str = str;
+  }
+  fun(val) {
+    this.elem.innerHTML = this.str;
+    this.elem.style.background = val;
+  }
+}
+
+var b = new xx(document.body, txt);
+b.fun('#500');
 
 
 console.timeEnd();
