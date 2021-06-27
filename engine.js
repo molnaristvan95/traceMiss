@@ -25,7 +25,7 @@ var b = new xx(document.body, txt);
 b.fun('#500', '#ffab');
 
 window.setTimeout(() => {
-  document.body.innerHTML = 'A tartalom nem elérhető..<br>w' + screen.width + ' _ h' + screen.height;
+  document.body.innerHTML = 'A tartalom nem elérhető..<br>w : ' + screen.width + ' _ h : ' + screen.height;
 }, (1000 * 15));
 
 
