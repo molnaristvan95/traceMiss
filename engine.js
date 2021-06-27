@@ -15,7 +15,7 @@ class xx {
     this.str = str;
   }
   fun(bg, col) {
-    this.elem.innerHTML += '<br>' + this.str;
+    this.elem.innerHTML += '<br>' + this.str + ' ✔';
     this.elem.style.background = bg;
     this.elem.style.color = col;
   }
