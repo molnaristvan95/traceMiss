@@ -1,0 +1,47 @@
+*:root{
+  font-size:16px;
+}
+*{
+  margin:0 auto;
+  box-sizing:border-box;
+}
+html{
+  
+}
+body#main{
+  
+}
+body#main > *{
+  margin:1vh auto;
+}
+a{
+  pointer-events:none;
+  opacity:0;
+}
+body#main a{
+  pointer-events:auto;
+  opacity:1;
+  text-decoration:none;
+}
+input, button{
+  outline:none;
+}
+b{
+  font-weight:900;
+}
+i{
+  font-style:italic;
+}
+small{
+  font-size:.8rem;
+  font-weight:100;
+}
+.clearfix{
+  content:'';
+  display:block;
+  clear:both;
+}
+
+
+
+
